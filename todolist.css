@@ -1,0 +1,235 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f93e0;
+}
+
+.box {
+    width: 700px;
+    min-height: 500px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+#item {
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    display: block;
+    font-weight: bold;
+    box-shadow: 0px 0px 2px grey;
+}
+
+#to-do-box {
+    margin-top: 20px;
+    list-style: none;
+}
+
+#to-do-box li {
+    position: relative;
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    border-radius: 2px;
+    padding-right: 30px;
+    text-align: justify;
+    margin-top: 10px;
+    user-select: none;
+}
+
+#to-do-box li i {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.done {
+    text-decoration: line-through;
+    color: black;
+    background-color: #95a5a6 !important;
+}
+.navbar {
+    overflow: hidden;
+    
+    font-family: Arial;
+    background: url('img2/transwall.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 14px;
+  }
+  
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: rgb(14, 11, 211);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+ 
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+ 
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(21, 8, 216);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+    border-radius: 14px;
+  }
+  
+ 
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(243, 172, 205);
+    border-radius: 14px;
+  }
+  
+
+  .dropdown-cont {
+    display: none;
+    position: absolute;
+    background-color: #b5e794;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(3, 15, 187, 0.2);
+    z-index: 1;
+  }
+  
+  
+  .dropdown-cont a {
+    float: none;
+    color: rgb(248, 7, 7);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+
+  .dropdown-cont a:hover {
+    background-color: #d3b1b1;
+  }
+  
+  
+  .dropdown:hover .dropdown-cont{
+    display: block;
+  }
+  .todolist{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+  }
+  h1{
+    text-align: center;
+  font-size: xx-large;
+    
+    
+  }
+  #to{
+    color: #b10e24;
+    text-shadow: 2px 5px 7px rgb(240, 109, 148);
+  }
+  #do{
+    color: #057020;
+    text-shadow: 2px 5px 7px rgb(195, 240, 32);
+  }
+  #list{
+    color: #810281;
+    text-shadow: 2px 5px 7px rgb(198, 102, 211);
+  }
+  main{
+width: 100%;
+
+height: 100vh;
+background:url('img2/transwall.jpg');
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+  .box{
+    width: 800px;
+    min-height: 500px;
+    background: url('img2/transwall2.jpg') ;
+    padding: 16px;
+    box-shadow: 2px 4px 8px red;
+    background-repeat: no-repeat;
+  }
+  #item{
+    padding: 10px;
+    display: block;
+    font-size: 20px;
+    width: 98%;
+    border: 0;
+    outline: 0;
+    box-shadow: 0px 0px 2px rgb(247, 7, 79);
+  }
+  #to-do-box{
+margin-top: 20px;
+list-style: none;
+display: inline;
+  }
+  #to-do-box li{
+     background-color: rgb(231, 123, 103);
+     padding: 10px;
+     
+     font-size: 20px;
+     position: relative;
+     color: white;
+     border-radius: 3px;
+     padding-right: 30px;
+    margin-top: 10px;
+    font-size: 23px;
+  }
+#to-do-box li i{
+    position: absolute;
+    left: 700px;
+    
+}
+.done{
+    text-decoration: line-through;
+    color: #810281;
+    background-color: cadetblue !important;
+}
+p a{
+  text-align: center;
+  
+  font-size: x-large;
+  color: #b10e24;
+  text-shadow: 2px 5px 7px rgb(240, 109, 148);
+  margin-top: 25px;
+}
+.lin{
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: blue;
+  margin-top: 25px;
+}
+.sm{
+  color: #61036d;
+  text-shadow: 2px 5px 7px rgb(240, 32, 240);
+  font-size: xx-large;
+  margin-top: 10px;
+}
